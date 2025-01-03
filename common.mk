@@ -19,5 +19,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/ayn
 
+# Storage
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/ayn/qcs8550-common/qcs8550-common-vendor.mk)
