@@ -29,6 +29,9 @@ TARGET_NEEDS_DTBOIMAGE := true
 # Display
 TARGET_SCREEN_DENSITY := 360
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml
