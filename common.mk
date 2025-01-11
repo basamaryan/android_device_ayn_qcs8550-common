@@ -44,7 +44,21 @@ PRODUCT_COPY_FILES += \
 # Init
 PRODUCT_PACKAGES += \
     fstab.default \
-    init.qcom.recovery.rc
+    init.class_main.sh \
+    init.kernel.post_boot-kalama_3_2_1.sh \
+    init.kernel.post_boot-kalama_3_4_0.sh \
+    init.kernel.post_boot-kalama_default_3_4_1.sh \
+    init.kernel.post_boot-kalama.sh \
+    init.kernel.post_boot.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.rc \
+    init.qcom.recovery.rc \
+    init.qcom.sh \
+    init.qcom.usb.rc \
+    init.qcom.usb.sh \
+    init.qti.kernel.rc \
+    init.target.rc \
+    ueventd.qcom.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.default:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.default
