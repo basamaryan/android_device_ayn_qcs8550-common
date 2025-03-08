@@ -6,8 +6,6 @@
 COMMON_PATH := device/ayn/qcs8550-common
 
 # A/B
-AB_OTA_UPDATER := true
-
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
