@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "android_kernel_ayn_qcs8550",
+    "target_path": "kernel/ayn/sm8550"
+  },
+  {
+    "repository": "android_kernel_ayn_qcs8550-devicetrees",
+    "target_path": "kernel/ayn/sm8550-devicetrees"
+  },
+  {
+    "repository": "android_kernel_ayn_qcs8550-modules",
+    "target_path": "kernel/ayn/qcs8550-modules"
+  }
+]
