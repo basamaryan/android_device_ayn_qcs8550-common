@@ -189,6 +189,18 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service
 
+# Overlays
+PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_PACKAGES += \
+    FrameworksResCommon \
+    FrameworksResTarget \
+    NcmTetheringOverlay \
+    SettingsResCommon \
+    SystemUIResCommon \
+    SystemUIResTarget \
+    WifiResCommon \
+    WifiResTarget
+
 # Partitions
 PRODUCT_PACKAGES += \
     vendor_bt_firmware_mountpoint \
