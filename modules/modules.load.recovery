@@ -151,7 +151,6 @@ spss_utils.ko
 spcom.ko
 msm_performance.ko
 qcom_va_minidump.ko
-qbt_handler.ko
 hung_task_enh.ko
 qfprom-sys.ko
 wcd_usbss_i2c.ko
